@@ -1,0 +1,46 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 14;
+	background-color: #EFF5FA;
+}
+
+header{
+	padding: 60px;
+}
+
+aside { 
+	float:right; 
+}
+
+img {
+	border: 10px solid	#687382;
+}
+
+section{
+	background-color: #EFF5FA;
+	border: 1px	solid	#C3D9D4;
+	padding: 30px;
+	margin: 30px;
+}
+
+address{
+	padding: 60px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding:5px;
+}
+
+h1{
+	color: #09B251;
+	font-size: 62px;
+}
+
+h2{
+	color: #2E3333;
+}
+
