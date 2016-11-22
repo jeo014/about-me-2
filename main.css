@@ -80,18 +80,17 @@ body {
 
 h1 {
 	font-size: 72px;
-	display: inline-block;
 	position: relative;
+	display: inline-block;
 }
 
 img {  
-	display: inline-block;
 	position: absolute;
 	left: 800px;
 }
 
 h3 {
-	display: inline-block;
+	display: block;
 }
 
 }
