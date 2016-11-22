@@ -1,46 +1,97 @@
-body{
-	font-family: Helvetica, sans-serif;
-	font-size: 14;
-	background-color: #EFF5FA;
+@media only screen and (min-width: 200px) {
+
+body {
+	margin: 15px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	color: #495661;
 }
 
-header{
-	padding: 60px;
+h1 {
+	font-size: 50px;
+	font-family: "Cabin Sketch", sans-serif;
+	font-weight: normal;
 }
 
-aside { 
-	float:right; 
+h2 {
+	font-size: 22px;
+	font-weight: normal;
 }
 
 img {
-	border: 10px solid	#687382;
+	height: 250px;
+	border: 5px solid #687382;
+	border-radius: 4px;
 }
 
-section{
-	background-color: #EFF5FA;
-	border: 1px	solid	#C3D9D4;
-	padding: 30px;
-	margin: 30px;
-}
-
-address{
-	padding: 60px;
-}
-
-ul{
+ul {
 	list-style-type: none;
+	text-align: left;
+	padding-left: 15px;
+	font-size: 14px;
 }
 
-li{
-	padding:5px;
+li {
+	padding-top: 10px;
+	text-align: left;
 }
 
-h1{
-	color: #09B251;
-	font-size: 62px;
+.contact {
+	border: 1px solid #87A1AB;
+	border-radius: 5px;
+	padding: 0px 10px 10px 20px;
+	margin-top: 50px;
 }
 
-h2{
-	color: #2E3333;
+.education {
+	border: 1px solid #87A1AB;
+	border-radius: 5px;
+	padding: 0px 10px 10px 20px;
+	margin-top: 20px;
 }
 
+.employment {
+	border: 1px solid #87A1AB;
+	border-radius: 5px;
+	padding: 0px 10px 10px 20px;
+	margin-top: 20px;
+}
+
+.address {
+	font-size: 14px;
+	text-align: left;
+	color: gray;
+	margin: 15px;
+	padding-top: 15px;
+}
+
+}
+
+@media only screen and (min-width: 640px) {
+
+* {
+
+}
+
+body {
+	text-align: left;
+	margin: 100px;
+}
+
+h1 {
+	font-size: 72px;
+	display: inline-block;
+	position: relative;
+}
+
+img {  
+	display: inline-block;
+	position: absolute;
+	left: 800px;
+}
+
+h3 {
+	display: inline-block;
+}
+
+}
